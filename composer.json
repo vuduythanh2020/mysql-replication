@@ -1,14 +1,8 @@
 {
-  "name": "krowinski/php-mysql-replication",
+  "name": "vuduythanh2020/mysql-replication",
   "description": "Pure PHP Implementation of MySQL replication protocol. This allow you to receive event like insert, update, delete with their data and raw SQL queries.",
   "keywords": [
-    "mysql-replication",
-    "php-library",
-    "mysql",
-    "mysql-binlog",
-    "mysql-replication-protocol",
-    "replication",
-    "binlog"
+    "mysql-replication"
   ],
   "type": "library",
   "require": {

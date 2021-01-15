@@ -127,6 +127,10 @@ class MySQLReplicationFactory
      */
     public function consume(): void
     {
-        $this->event->consume();
+        try{
+            $this->event->consume();
+        } catch (\ErrorException $errorException){
+            //
+        }
     }
 }
