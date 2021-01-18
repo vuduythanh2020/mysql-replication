@@ -1,1 +1,1 @@
-krowinski/php-mysql-replication
+copy from krowinski/php-mysql-replication
